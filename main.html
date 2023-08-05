@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="title" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c0259418e1.js" crossorigin="anonymous"></script>
+    <title>Maunga Club</title>
+
+    <script>
+        window.addEventListener("load", () => {
+            const loader =  document.querySelector(".loader");
+
+            loader.classList.add("loader--hidden")
+            
+            loader.addEventListener("transitionend", () => {
+                document.body.removeChild(loader);
+            })
+        })
+    </script>
+
+</head>
+<body>
+    <div class="loader" ></div>
+
+<header>
+    <div class="container flex1">
+        <div class="logo">
+            <img src="91893v1a Assessment Resources\Maunga_Club_white.png" alt="">
+        </div>
+
+        <div class="navbar ">
+            <ul class="menu-list">
+                <li class="menu-list-item"><a href="#">Accomodation</a></li>
+                <li class="menu-list-item"><a href="#">Memberships</a></li>
+                <li class="menu-list-item"><a href="#">About</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+
+    
+</body>
+
+
+
+
+
+</html>
