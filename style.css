@@ -29,6 +29,7 @@ nav {
 }
 
 nav img {
+    float: left;
     width: 260px;
     margin-top: 10px;
     margin-left: 110px;
@@ -90,6 +91,30 @@ nav img {
 
 nav .fa-solid {
     display: none;
+}
+
+@media (max-width:1300px){
+    nav img {
+        width: 200px;
+        margin-left: 70px;
+    }
+
+    .menu-list-item {
+        padding: 5px 38px;
+    }
+
+    .text {
+        width: 70%;
+        float: left;
+        top: 55%;
+        left: 40%;
+        
+    }
+
+    .text h1 {
+        font-size: 35px;
+    }
+    
 }
 
 @media (max-width: 700px){
