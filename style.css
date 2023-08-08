@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 ::-webkit-scrollbar {
@@ -9,7 +10,7 @@
   }
 
 /*      *\
- #Header 
+ Header 
  &Banner
 \*      */
 .header {
@@ -23,7 +24,7 @@
 
 
 /*      *\
- #NAVBAR
+ NAVBAR
 \*      */
 
 nav {
@@ -206,7 +207,7 @@ nav .fa-solid {
 
 
 /*      *\
- #PRELOAD
+ PRELOAD
 \*      */
 
 .loader {
@@ -245,4 +246,29 @@ nav .fa-solid {
 
 
 
+/*      *\
+ About Us
+ Section
+\*      */
 
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    padding-top: 100px;
+}
+
+.about-us h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+.about-us-img {
+    float: left;
+    width: 30%;
+    height: 300px;
+}
