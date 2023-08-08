@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
 
-
-
+/*      *\
+ #Header 
+ &Banner
+\*      */
 .header {
     min-height: 100vh;
     width: 100%;
@@ -69,6 +74,11 @@ nav img {
     width: 100%;
     
 }
+
+/*      *\
+ #Header
+ Items
+\*      */
 
 .text {
     width: 90%;
@@ -157,6 +167,41 @@ nav .fa-solid {
     }
 
     
+}
+
+.about-us-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+    padding: 10px 40px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 white;
+    transition: ease-in .4s;
+
+}
+
+
+.about-us-btn a {
+    color: white;
+    text-decoration: none;
+    transition: ease-in .5s;
+}
+
+.about-us-btn:hover {
+    box-shadow: 0 0 20px #47A992, inset 200px 0 #47A992;
+    border: 3px solid #47A992;
+
+}
+
+.about-us-btn:hover a {
+    color: rgb(38,38,38);
 }
 
 
