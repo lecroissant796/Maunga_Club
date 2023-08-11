@@ -348,6 +348,10 @@ nav .fa-solid {
     margin-top: 100px;
 }
 
+.accomodation p {
+    text-align: center;
+}
+
 .box-container {
     display: flex;
     flex: wrap;
@@ -356,11 +360,10 @@ nav .fa-solid {
 
 .box {
     margin-top: 50px;
-    position: relative;
     flex: 1 1 50rem;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0,.1);
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0,.1);
 }
 
 .box img {
@@ -368,6 +371,28 @@ nav .fa-solid {
     width: 100%;
     object-fit: cover;
 }
+
+.box h3 {
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box p {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.box .stars {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
 
 
 
@@ -391,5 +416,19 @@ nav .fa-solid {
     font-size: 30px;
     font-weight: 600;
     margin-top: 50px;
+}
+
+.see-more{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.see-more p {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+
 }
 
