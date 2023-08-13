@@ -338,6 +338,7 @@ nav .fa-solid {
 .accomodation {
     width: 80%;
     margin: auto;
+    padding-bottom: 100px;
 }
 
 .accomodation h1{
@@ -419,8 +420,7 @@ nav .fa-solid {
 }
 
 .club-membership p {
-    text-align: center;
-    
+    text-align: center;    
     
 }
 .see-more{
@@ -448,8 +448,9 @@ nav .fa-solid {
 
 .to-join img {
     height: auto;
-    width: 400px;
+    width: 350px;
     border-radius: 15px;
+    margin-right: 50px;
 }
 
 
@@ -462,3 +463,23 @@ nav .fa-solid {
 }
 
 
+
+
+.list {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.list ul {
+    padding: 20px;
+}
+
+.list li {
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+.text-below {
+    margin-top: 40px;
+    max-width: 500px;
+}
