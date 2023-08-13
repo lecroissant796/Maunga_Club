@@ -412,12 +412,17 @@ nav .fa-solid {
 
 .club-membership h1 {
     font-family: 'Poppins', sans-serif;
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     font-weight: 600;
     margin-top: 50px;
 }
 
+.club-membership p {
+    text-align: center;
+    
+    
+}
 .see-more{
     display: flex;
     position: relative;
@@ -431,4 +436,29 @@ nav .fa-solid {
     font-weight: 500;
 
 }
+.to-join {
+    width: 1900px;
+    max-width: 95%;
+    padding-top: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.to-join img {
+    height: auto;
+    width: 400px;
+    border-radius: 15px;
+}
+
+
+
+.to-join-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    text-decoration: underline;
+}
+
 
