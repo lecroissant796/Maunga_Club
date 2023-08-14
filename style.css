@@ -5,6 +5,11 @@
     
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 ::-webkit-scrollbar {
     display: none;
   }
@@ -40,6 +45,13 @@ nav img {
     margin-top: 10px;
     margin-left: 110px;
 }
+
+
+
+
+
+
+
 
 .menu {
     flex: 1;
@@ -202,7 +214,7 @@ nav .fa-solid {
 }
 
 .about-us-btn:hover a {
-    color: rgb(38,38,38);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -313,7 +325,7 @@ nav .fa-solid {
 
 
 .accomodation-btn a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     transition: ease-in .5s;
 }
@@ -325,8 +337,8 @@ nav .fa-solid {
 
 }
 
-.accomodation-btn:hover a {
-    color: rgb(38,38,38);
+.accomodation-btn:hover a{
+    color: white;
 }
 
 
@@ -365,6 +377,12 @@ nav .fa-solid {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 2rem 3rem rgba(0, 0, 0,.1);
+    transition: all 0.6s ease-out;
+}
+
+.box:hover {
+    transform: scale(1);
+    margin: 0 8px;
 }
 
 .box img {
@@ -528,7 +546,8 @@ nav .fa-solid {
 }
 
 .contact-container input {
-    width: 290px;
+    margin-top: 20px;
+    width: 260px;
     height: 40px;
     padding-left: 10px;
     outline: none;
@@ -539,8 +558,71 @@ nav .fa-solid {
     border-bottom: 2px solid;    
 }
 
-.contact-container form h3 {
-    font-weight: 300;
-    width: 600px;
-    margin-top: 20px;
+.contact-container form #lastName, 
+.contact-container form #phoneNumber {
+    margin-left: 20px;
+}
+
+
+
+.contact-container form textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    width: 540px;
+    min-height: 80px;
+    max-height: 80px;
+
+}
+
+.contact-container form button {
+    margin: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 0 45px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 rgb(0, 0, 0);
+    transition: ease-in .4s;
+}
+
+
+
+.contact-container form button a {
+    color: white;
+    text-decoration: none;
+    transition: ease-in .5s;
+}
+
+.contact-container form button:hover {
+    box-shadow: 0 0 20px #47A992, inset 200px 0 #47A992;
+    border: 3px solid #47A992;
+    color: white;
+
+}
+
+.accomodation-btn:hover a {
+    color: rgb(38,38,38);
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    bottom: 0;
+    background: #47A992;
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
 }
