@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="login.css">
         <script src="script.js"></script>
         <meta name="title" content="">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,23 +31,46 @@
 
     <div class="loader" ></div>
     <section class="header">
-        <nav>   
-            <a href="main.html" class="logo"><img src="Maunga_Club_white.png" alt=""></a>
-            <div class="menu">
-                <ul>
-                    <li class="menu-list-item"><a href="#about">About</a></li>
-                    <li class="menu-list-item"><a href="#accomodation">Accomodation</a></li>
-                    <li class="menu-list-item"><a href="#membership">Memberships</a></li>
-                    <li class="menu-list-item"><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <i class="fa-solid fa-bars"></i>
-            <i class="fa-solid fa-xmark"></i>
-        </nav>
-
-
-        <div class="text">
+        <div class="nav">   
+            <a href="main.html"><img class="logo" src="Maunga_Club_white.png" alt=""></a>
+           
             
+        </div>
+
+        <div class="container">
+            <div class="box">
+                <div class="box-login" id="login">
+                    <h3>Login</h3>
+                    <div class="input-group">
+                        <div class="input-field">
+                            <input type="text" class="input-box" id="logEmail" required>
+                            <label for="logEmail">Email Address</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="input-box" id="logPassword" required>
+                            <label for="logPassword">Password</label>
+                            <div class="eye-box" onclick="myLogPassword">
+                                <i class="fa-regular fa-eye" id="eye"></i>
+                                <i class="fa-regular fa-eye-slash" id="eye-slash"></i>
+                            </div>
+                        </div>
+                        <div class="remember">
+                            <input type="checkbox" id="formCheck" class="check">
+                            <label for="formCheck">Remeber Me</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="submit" class="input-submit" value="Sign In">
+                        </div>
+                        <div class="forgot">
+                            <a href="">Forgot password</a>
+                        </div>
+    
+                    </div>
+                </div>
+
+            </div>
+
+
         </div>
 
 
