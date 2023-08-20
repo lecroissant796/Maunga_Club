@@ -387,8 +387,8 @@ nav .fa-solid {
 }
 
 .box:hover {
-    transform: scale(1);
-    margin: 0 8px;
+    
+    margin: 5px 0px;
 }
 
 .box img {
