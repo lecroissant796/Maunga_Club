@@ -514,6 +514,11 @@ nav .fa-solid {
     margin-left: 100px;
 }
 
+@media (max-width: 2000px ){
+    .member {
+        margin-left: 260px;
+    }
+}
 
 .member h3 {
     font-family: 'Roboto', sans-serif;
