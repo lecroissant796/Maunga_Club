@@ -367,6 +367,7 @@ nav .fa-solid {
 
 .accomodation p {
     text-align: center;
+    color: #4b4b4b;
 }
 
 .box-container {
@@ -446,7 +447,8 @@ nav .fa-solid {
 }
 
 .club-membership p {
-    text-align: center;    
+    text-align: center; 
+    color: #4b4b4b;   
     
 }
 .see-more{
@@ -672,13 +674,70 @@ nav .fa-solid {
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 100px;
     width: 100%;
     bottom: 0;
     background: #47A992;
     color: #fff;
     padding: 100px 0 30px;
-    border-top-left-radius: 125px;
-    font-size: 13px;
+    border-top-left-radius: 225px;
     line-height: 20px;
 }
+
+footer .footer-content {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    
+    
+}
+
+.footer-content h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px;
+}
+.socials li {
+    margin: 0 15px;
+    margin-bottom: 40px;
+}
+
+.socials a {
+    color: white;
+    font-size: 22px;
+}
+
+.socials a:hover {
+    color: #7A3E3E;
+}
+.footer-bottom span {
+    text-transform: uppercase; 
+    color: #7A3E3E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
