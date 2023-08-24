@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chalets.css">
     <script src="script.js"></script>
     <meta name="title" content="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,10 +11,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c0259418e1.js" crossorigin="anonymous"></script>
     <title>Kākāpo Chalet</title>
+    <script>
+        
+        window.addEventListener("load", () => {
+            const loader =  document.querySelector(".loader");
+
+            loader.classList.add("loader--hidden")
+            
+            loader.addEventListener("transitionend", () => {
+                document.body.removeChild(loader);
+            })
+        })
+        
+    </script>
 
 </head>
 <body>
     <div class="loader" ></div>
+
+    <section class="header">
+        <nav>   
+            <a href="main.html" class="logo"><img src="Maunga_Club_white.png" alt=""></a>
+            <div class="menu">
+                <ul>
+                    <li class="menu-list-item"><a href="main.html#about">About</a></li>
+                    <li class="menu-list-item"><a href="main.html#accomodation">Accomodation</a></li>
+                    <li class="menu-list-item"><a href="main.html#membership">Memberships</a></li>
+                    <li class="menu-list-item"><a href="main.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </nav>
+
+
+
+
+
+    </section>
+
+    <section class="content">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="Resources\kakapo\bunk_room.jpg" alt="Bunk Room">
+                <img id="slide-2" src="Resources\kakapo\cabin_exterior.jpg" alt="Cabin Exterior">
+                <img id="slide-3" src="Resources\kakapo\cabin_view.jpg" alt="Cabin View">
+                <img id="slide-4" src="Resources\kakapo\hallway.jpg" alt="Hallway">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </div>
+        <div class="text">
+            <h1>hello</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aspernatur animi amet, earum dolorum magnam distinctio temporibus, vero numquam, minima eaque quia tempora provident explicabo perferendis. Delectus nobis a illum.</p>
+            <ul>
+                <li>nehhh</li>
+            </ul>
+        </div>
+    </section>
+
     
 </body>
 </html>

@@ -28,15 +28,7 @@ html {
 }
 
 
-/*
-.login-header {
-    height: 100px;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,3,0.7), rgba(4,9,3,0.7)), url(mountain_view_1.jpg);
-    background-position: center;
-    background-size: cover;
-}
-*/ 
+
 /*      *\
  NAVBAR
 \*      */
@@ -582,6 +574,7 @@ nav .fa-solid {
 
 .contact-text p {
     text-align: center;    
+    color: #4b4b4b;
     
 }
 
