@@ -263,9 +263,6 @@ nav .fa-solid {
     margin: 10px 0;
 }
 
-.chalet {
-    
-}
 
 .slider-wrapper{
     position: relative;
@@ -313,24 +310,65 @@ nav .fa-solid {
 }
 
 .text {
-    display: relative;
-    width: 500px;
+    display: absolute;
+    width: 450px;
+    left: 980px;
 }
 
 .text h1 {
-    text-align: right;
+    text-align: center;
     color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text p {
-    text-align: right;
-    color: black;
+    text-align: left;
+    font-size: 16px;
+    color: #4b4b4b;
 }
 
 .text ul {
-    text-align: right;
+    
+    padding-left: 15px;
     color: black;
 }
+
+.text li {
+    padding: 5px;
+}
+
+.book-btn{
+    margin-top: 25px;
+    margin-left: 150px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 7px 35px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 rgb(0, 0, 0);
+    transition: ease-in .4s;
+}
+
+.book-btn a {
+    color: white;
+    text-decoration: none;
+    transition: ease-in .5s;
+}
+
+
+.book-btn:hover {
+    box-shadow: 0 0 20px #47A992, inset 200px 0 #47A992;
+    border: 3px solid #47A992;
+    color: white;
+}
+
+
 
 
 
