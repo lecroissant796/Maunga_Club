@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chalets.css">
+    <script src="script.js"></script>
+    <meta name="title" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c0259418e1.js" crossorigin="anonymous"></script>
+    <title>Pukeko Chalet</title>
+    <script>
+        
+        window.addEventListener("load", () => {
+            const loader =  document.querySelector(".loader");
+
+            loader.classList.add("loader--hidden")
+            
+            loader.addEventListener("transitionend", () => {
+                document.body.removeChild(loader);
+            })
+        })
+        
+    </script>
+
+</head>
+<body>
+    <div class="loader" ></div>
+
+    <section class="header">
+        <nav>   
+            <a href="main.html" class="logo"><img src="Maunga_Club_white.png" alt=""></a>
+            <div class="menu">
+                <ul>
+                    <li class="menu-list-item"><a href="main.html#about">About</a></li>
+                    <li class="menu-list-item"><a href="main.html#accomodation">Accomodation</a></li>
+                    <li class="menu-list-item"><a href="main.html#membership">Memberships</a></li>
+                    <li class="menu-list-item"><a href="main.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </nav>
+
+
+
+
+
+    </section>
+
+    <section class="content">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img id="slide-1" src="Resources\pukeko\chalet_view.jpg" alt="Chalet View">
+                <img id="slide-2" src="Resources\pukeko\chalet_exterior.jpg" alt="Cabin Exterior">
+                <img id="slide-3" src="Resources\pukeko\bathroom.jpg" alt="Bathroom">
+                <img id="slide-4" src="Resources\pukeko\adult_bedroom.jpg" alt="Adult Bedroom">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+        </div>
+        <div class="text">
+            <h1>Pūkeko</h1>
+            <p>Pūkeko is great for large groups/families wanting a chalet to themselves. With the maximum of 6 adults and maximum of 15 children. This limits will ensure the comfortable stay for our members</p>
+            <ul>
+                <li>Only Club members can access the chalets</li>
+                <li>All chalet bookings must be from Friday to Sunday</li>
+                <li>Chalets offer shared accommodation for between 6 and 40 people per chalet</li>
+                <li>All three chalets are on the mountain, so you can ski to and from the chalets</li>
+                <li>The mountain gives 550 hectares of skiing/snowboarding area, and the longest
+                    ski/snowboard season in New Zealand</li>
+            </ul>
+            <a href="login.html"><button class="book-btn">Book Now</button></a>
+        </div>
+        
+    </section>
+
+    
+</body>
+</html>

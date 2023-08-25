@@ -97,17 +97,20 @@ nav .logo {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
     
 }
 
 
 .text h1 {
     font-size: 39px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text p {
     margin: 10px 0 40px;
     font-size: 17px;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav .fa-solid {
@@ -323,8 +326,9 @@ nav .fa-solid {
 
 .text p {
     text-align: left;
-    font-size: 16px;
+    font-size: 12px;
     color: #4b4b4b;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text ul {
@@ -335,6 +339,7 @@ nav .fa-solid {
 
 .text li {
     padding: 5px;
+    font-size: 13px;
 }
 
 .book-btn{
